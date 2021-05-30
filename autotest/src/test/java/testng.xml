@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="优测教育" parallel="false">
+
+  <!-- 参数化 -->
+  <parameter name="filePathParam" value="D:\\data\\app_testcase.xlsx"/>
+  
+  <test name="接口自动化">
+    <classes>
+      <class name="com.youceedu.interf.test.TestRun"/>
+      <class name="com.youceedu.interf.test.NewTest"/>
+      		<methods>
+      			<exclude name="f"/>
+      		</methods>>	
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- reportng报告替代testng默认报告 -->
+  <listeners>
+  		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  		
+  		<!-- 失败用例重试 -->
+  		<listener class-name="com.youceedu.inter.listener.AnnotationTransformerImpl"/>
+  		
+  		<!-- 测试结果去重复-->
+  		<listener class-name="com.youceedu.inter.listener.TestListenerImpl"/>
+  		
+  		
+  </listeners>
+  
+  
+</suite> <!-- Suite执行测试类下的测试方法 -->

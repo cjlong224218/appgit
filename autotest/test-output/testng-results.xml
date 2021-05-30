@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="优测教育" duration-ms="1457" started-at="2021-05-28T13:30:51Z" finished-at="2021-05-28T13:30:52Z">
+    <groups>
+    </groups>
+    <test name="接口自动化" duration-ms="1457" started-at="2021-05-28T13:30:51Z" finished-at="2021-05-28T13:30:52Z">
+      <class name="com.youceedu.interf.test.TestRun">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.youceedu.interf.test.TestRun@ae45eb6]" name="beforeTest" is-config="true" duration-ms="4" started-at="2021-05-28T21:30:51Z" finished-at="2021-05-28T21:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\\data\\app_testcase.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="httpReq(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.interf.test.TestRun@ae45eb6]" name="httpReq" duration-ms="4" started-at="2021-05-28T21:30:51Z" data-provider="testCaseData" finished-at="2021-05-28T21:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cjl正确的账号和密码登录]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://8.131.245.231:8080]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/api/loginCheck]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[id=123456&passwd=123456&t=${__Time(,)}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.msg=管理员登陆成功;$.stateCode=1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- httpReq -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.youceedu.interf.test.TestRun@ae45eb6]" name="afterTest" is-config="true" duration-ms="1068" started-at="2021-05-28T21:30:51Z" finished-at="2021-05-28T21:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.youceedu.interf.test.TestRun -->
+    </test> <!-- 接口自动化 -->
+  </suite> <!-- 优测教育 -->
+</testng-results>
