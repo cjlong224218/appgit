@@ -86,4 +86,23 @@
   
   </dependencies>
   
+  <build>
+  	<plugins>
+  	
+  	  <!-- 测试用res/testngApp.xml;正式用：res/${xmlFileName} -->
+  	  <plugin>
+  	  	<groupId>org.apache.maven.plugins</groupId>
+  	  	<artifactId>maven-surefire-plugin</artifactId>
+  	  	<version>2.7.1</version>
+  	  	<configuration>
+  	  	  <suiteXmlFiles>
+  	  	  	<suiteXmlFile>res/testngApp.xml</suiteXmlFile>
+  	  	  </suiteXmlFiles>
+  	  	  <testFailureIgnore>true</testFailureIgnore>
+  	  	</configuration>
+  	  </plugin>
+  	  
+  	</plugins>
+  	<finalName>autotest</finalName>
+  </build>
 </project>
