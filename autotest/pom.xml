@@ -96,7 +96,7 @@
   	  	<version>2.7.1</version>
   	  	<configuration>
   	  	  <suiteXmlFiles>
-  	  	  	<suiteXmlFile>res/testngApp.xml</suiteXmlFile>
+  	  	  	<suiteXmlFile>res/${xmlFileName}</suiteXmlFile>
   	  	  </suiteXmlFiles>
   	  	  <testFailureIgnore>true</testFailureIgnore>
   	  	</configuration>
