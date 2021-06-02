@@ -63,9 +63,9 @@ public class HttpReqUtil {
 		
 		//≈‰÷√«Î«Û≥¨ ±
 		/*
-		 * 
 		Builder builder=RequestConfig.custom();
 		builder.setConnectionRequestTimeout(2000);
+		
 		RequestConfig requestConfig=builder.build();
 		httpRequestBase.setConfig(requestConfig);
 		*/
