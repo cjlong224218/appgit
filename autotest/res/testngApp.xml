@@ -2,7 +2,7 @@
 <suite name="优测教育" parallel="false">
 
   <!-- 参数化 -->
-  <parameter name="filePathParam" value="D:\\data\\app_testcase.xlsx"/>
+  <parameter name="filePathParam" value="/data/interface/testcase/app_testcase.xlsx"/>
   
   <test name="接口自动化">
     <classes>
