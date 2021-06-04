@@ -3986,3 +3986,22 @@
 2021-06-02 21:13:56 INFO com.youceedu.inter.listener.TestListenerImpl:44 - 在set集合存放1个id[]
 2021-06-02 21:13:56 INFO com.youceedu.inter.listener.TestListenerImpl:45 - 在list集合存放重复的失败用例集合=[]
 2021-06-02 21:13:56 INFO com.youceedu.inter.listener.TestListenerImpl:50 - 删除重复的失败用例集合
+2021-06-04 21:55:21 INFO com.youceedu.interf.util.ExcelUtil:38 - 实例化类，入参fileName=D:\\data\\app_testcase.xlsx
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:52 - 成功得到wb对象
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:69 - 成功得到sheet对象
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=1
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=YES
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=cjl正确的账号和密码登录
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=POST
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=http://8.131.245.231:8080
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=/api/loginCheck
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=id=123456&passwd=123456&t=${__Time(,)}
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=STRING值=$.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:138 - 单元格类型=BLANK值=
+2021-06-04 21:55:22 INFO com.youceedu.interf.util.ExcelUtil:172 - excel内测试用例都已成功存入二维数组testCaseData中
+2021-06-04 21:55:22 INFO com.youceedu.interf.test.TestRun:105 - 成功得到@test方法驱动的用例数据
+2021-06-04 21:55:23 INFO com.youceedu.inter.listener.TestListenerImpl:30 - 得到成功用例结果集合=[[TestResult name=httpReq status=SUCCESS method=TestRun.httpReq(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.interf.test.TestRun@ae45eb6] output={null}]]
+2021-06-04 21:55:23 INFO com.youceedu.inter.listener.TestListenerImpl:43 - 得到失败用例结果集合=[]
+2021-06-04 21:55:23 INFO com.youceedu.inter.listener.TestListenerImpl:44 - 在set集合存放1个id[]
+2021-06-04 21:55:23 INFO com.youceedu.inter.listener.TestListenerImpl:45 - 在list集合存放重复的失败用例集合=[]
+2021-06-04 21:55:23 INFO com.youceedu.inter.listener.TestListenerImpl:50 - 删除重复的失败用例集合
