@@ -96,7 +96,7 @@ public class HttpReqUtil {
 		try{
 			//得到httpclient对象
 			
-			//定制化开发
+			//定制化开 发
 			/*			 
 			HttpClientBuilder httpClientBuilder=HttpClients.custom();
 			CookieStore  cookieStore=new BasicCookieStore();
