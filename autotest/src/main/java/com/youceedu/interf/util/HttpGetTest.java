@@ -26,7 +26,7 @@ public class HttpGetTest {
 	/**
 	 * 
 	 * @Title: sendGet   
-	 * @Description: 发送get请求
+	 * @Description:发送get请求
 	 * @param: @param url
 	 * @param: @param param
 	 * @param: @return
